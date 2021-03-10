@@ -1,8 +1,9 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule, ExtraOptions } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NavResolver } from './pages/navResolver';
+import {BtrabajoComponent} from './pages/btrabajo/btrabajo.component'
 
 
 const routerOptions: ExtraOptions = {
@@ -16,7 +17,8 @@ const routerOptions: ExtraOptions = {
 const routes: Routes = [
   { path: '',   redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent},
-  { path: 'about', component: AboutComponent}
+  { path: 'about', component: AboutComponent},
+  { path:'btrabajo', component: BtrabajoComponent}
 ];
 
 @NgModule({

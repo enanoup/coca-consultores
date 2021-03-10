@@ -12,6 +12,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { HeaderOtherPagesComponent } from './pages/header-other-pages/header-other-pages.component';
+import { BtrabajoComponent } from './pages/btrabajo/btrabajo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeaderOtherPagesComponent } from './pages/header-other-pages/header-oth
     AboutComponent,
     HeaderComponent,
     FooterComponent,
-    HeaderOtherPagesComponent
+    HeaderOtherPagesComponent,
+    BtrabajoComponent
   ],
   imports: [
     BrowserModule,
