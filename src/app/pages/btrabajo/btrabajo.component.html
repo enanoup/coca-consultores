@@ -1,59 +1,59 @@
-<app-header></app-header> 
-<div id="contacto" class="about-compnay-two ">
-<div class="overlay">
-    <div class="container pt-4 pb-4">
-        <div class="row no-gutters">
-            <div class="col-lg-7 col-12 text text-center pt-3">
-                <div class="theme-title-one">
-                    <h2>BOLSA DE TRABAJO</h2>
+<app-header id="top"></app-header>
+<div id="contacto" class="about-compnay-two">
+    <div class="overlay">
+        <div class="container">
+            <div class="row text text-center">
+                <div class="col-sx-12 col-md-6 col-lg-6">
+                    <div class="theme-title-one">
+                        <h2>BOLSA DE TRABAJO</h2>
+                    </div>
+                    <!-- /.theme-title-one -->
+                    <h4 class="pb-2 text-white">Oficina:</h4>
+                    <p class="text-white"> <a href="tel:5524542174" style="text-decoration: none; color: #FFFFFF">+52 5524542174</a></p>
+                    <p class="pb-4 text-white"><a href="tel:5524542175" style="text-decoration: none; color: #FFFFFF">+52 5524542175</a></p>
+                    <h4 class="pb-2 text-white">Email:</h4>
+                    <p class="text-white">contacto@cocaconsultores.com</p>
                 </div>
-                <!-- /.theme-title-one -->
-                <h4 class="pt-3 pb-2 text-white">Oficina:</h4>
-                <p class="text-white"> <a href="tel:5524542174" style="text-decoration: none; color: #FFFFFF">+52 5524542174</a></p>
-                <p class="pb-4 text-white"><a href="tel:5524542175" style="text-decoration: none; color: #FFFFFF">+52 5524542175</a></p>
-                <h4 class="pt-3 pb-2 text-white">Email:</h4>
-                <p class="text-white">contacto@cocaconsultores.com</p>
-            </div>
-            <!-- /.col- -->
-            <div class="col-lg-5 col-12">
-                <div class="quote-form">
-                    <form class="theme-form-one">
-                        <div class="row"> 
-                            <div class="col-md-6">
-                                <input type="text"  placeholder="Nombre *">
+                <!-- /.col- -->
+                 <div class="col-sx-12 col-md-6 col-lg-6">
+                    <div class="quote-form">
+                        <form class="theme-form-one">
+                            <div class="row"> 
+                                <div class="col-xs-12 col-md-6">
+                                    <input type="text"  placeholder="Nombre *">
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <input type="text"  placeholder="Whatsapp *">
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <input type="email"  placeholder="Email *">
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <select class="form-control"  id="exampleSelect1">
+                                                      <option [ngValue]="null" disabled>¿Puestos disponibles?</option>
+                                                      <option value="Head Hunting">Recepsionista</option>
+                                                      <option value="Reclutamiento y Selección">Reclutamiento y Selección</option>
+                                                      <option value="Maquila de Nómina">Maquila de Nómina</option>
+                                                      <option value="Tercerización de Personal">Tercerización de Personal</option>
+                                                      <option value="Administración On Site">Administración On Site</option>
+                                                      <option value="Capacitación">Capacitación</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-12 col-md-12">
+                                    <textarea  placeholder="Mensaje"></textarea>
+                                </div>
                             </div>
-                            <div class="col-md-6">
-                                <input type="text"  placeholder="Whatsapp *">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email"  placeholder="Email *">
-                            </div>
-                            <div class="col-md-6">
-                                <select class="form-control"  id="exampleSelect1">
-                                                  <option [ngValue]="null" disabled>¿Puestos disponibles?</option>
-                                                  <option value="Head Hunting">Recepsionista</option>
-                                                  <option value="Reclutamiento y Selección">Reclutamiento y Selección</option>
-                                                  <option value="Maquila de Nómina">Maquila de Nómina</option>
-                                                  <option value="Tercerización de Personal">Tercerización de Personal</option>
-                                                  <option value="Administración On Site">Administración On Site</option>
-                                                  <option value="Capacitación">Capacitación</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <textarea  placeholder="Mensaje"></textarea>
-                            </div>
-                        </div>
-                        <!-- /.row -->
-                        <button type="submit"  class="theme-button-one">ENVIAR</button>
-                    </form>
+                            <!-- /.row -->
+                            <button type="submit"  class="theme-button-one">ENVIAR</button>
+                        </form>
+                    </div>
+                    <!-- /.quote-form -->
                 </div>
-                <!-- /.quote-form -->
             </div>
-        </div>
-        <!-- /.row -->
+            <!-- /.row -->
+        </div>    
+        <!-- /.container -->
     </div>
-    <!-- /.container -->
-</div>
-<!-- /.overlay -->
+    <!-- /.overlay -->
 </div>
 <app-footer></app-footer>
