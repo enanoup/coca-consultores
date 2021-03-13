@@ -29,7 +29,6 @@
         <!-- /.container -->
     </div>
     <!-- /.top-header -->
-
     <div class="theme-menu-wrapper">
         <div class="container">
             <div class="bg-wrapper clearfix">
@@ -38,7 +37,7 @@
                     <nav id="mega-menu-holder" class="clearfix">
                         <ul class="clearfix">
                             <li [class.active]="(activeFragment | async) === '' || (activeFragment | async) ==='top'"><a routerLink="/home" fragment="top">Inicio</a></li>
-                            <li><a routerLink="/about" routerLinkActive="active-link">Somos</a></li>
+                            <li [class.active]="(activeFragment | async) ==='contacto'"><a href="#contacto">Somos</a></li>
                             <li [class.active]="(activeFragment | async) ==='soluciones'"><a href="#soluciones">Soluciones</a></li>
                             <li [class.active]="(activeFragment | async) ==='proceso'"><a href="#proceso">Hacemos</a></li>
                             <li [class.active]="(activeFragment | async) ==='capacitaciones'"><a href="#capacitaciones">Capacitaciones</a></li>
@@ -62,7 +61,6 @@
                         <li class="search-option">
                             <div class="dropdown">
                                 <button type="button" class="dropdown-toggle" data-toggle="dropdown"><i class="" aria-hidden="true"></i></button>
-
                             </div>
                         </li>
                     </ul>
@@ -73,6 +71,10 @@
         </div>
         <!-- /.container -->
     </div>
+    <!-- /.theme-menu-wrapper -->
+
+
+   
     <!-- /.theme-menu-wrapper -->
 </header>
 <!-- /.header-one -->
